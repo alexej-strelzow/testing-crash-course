@@ -1,0 +1,9 @@
+node_modules/
+build
+*.scss
+*.svg
+*.css
+src/serviceWorker.ts
+src/react-app-env.d.ts
+config-overrides.js
+public

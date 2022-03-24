@@ -1,0 +1,46 @@
+{
+  "trains": [
+    {
+      "name": "Behemoth",
+      "imagePath": "/images/train1.jpeg"
+    },
+    {
+      "name": "Goldie",
+      "imagePath": "/images/train2.jpeg"
+    },
+    {
+      "name": "Shinkansen",
+      "imagePath": "/images/train3.jpeg"
+    },
+    {
+      "name": "Railjet",
+      "imagePath": "/images/train4.jpeg"
+    }
+  ], 
+  "services": [
+    {
+      "name": "Sushi",
+      "imagePath": "/images/food1.jpeg"
+    },
+    {
+      "name": "Ribs",
+      "imagePath": "/images/food2.jpeg"
+    },
+    {
+      "name": "Leberkas",
+      "imagePath": "/images/food3.jpeg"
+    },
+    {
+      "name": "Cocktails",
+      "imagePath": "/images/drinks1.jpeg"
+    },
+    {
+      "name": "Wine",
+      "imagePath": "/images/drinks2.jpeg"
+    },
+    {
+      "name": "Beer",
+      "imagePath": "/images/drinks3.jpeg"
+    }
+  ]
+}

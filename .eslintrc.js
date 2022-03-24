@@ -1,0 +1,62 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+    jest: true,
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        paths: ['src'],
+      },
+    },
+  },
+  extends: [
+    'react-app',
+    'react-app/jest',
+    'plugin:react/recommended',
+    'airbnb',
+    'plugin:jsx-a11y/recommended',
+    'plugin:prettier/recommended',
+    'plugin:testing-library/react',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  plugins: [
+    'react',
+    '@typescript-eslint',
+    'jsx-a11y',
+    'react-hooks',
+    'simple-import-sort',
+    'testing-library',
+  ],
+  rules: {
+    'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }],
+    'import/extensions': ['error', 'never'],
+    'import/prefer-default-export': 'off',
+    'testing-library/await-async-query': 'error',
+    'testing-library/no-await-sync-query': 'error',
+    'react/function-component-definition': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
+    'max-lines-per-function': ['warn', 50],
+    'import/no-unresolved': 2,
+    '@typescript-eslint/no-shadow': 'error',
+    'prettier/prettier': 'error',
+    'no-shadow': 'off',
+    'no-unused-vars': 'off',
+    'react/require-default-props': 'off',
+    'import/no-extraneous-dependencies': [2, { devDependencies: true }],
+    'max-len': 'off',
+    'react/jsx-no-bind': 'off',
+  },
+};

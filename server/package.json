@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "author": "Alexej Strelzow",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "26.6.3",
+    "supertest": "6.2.2"
+  },
+  "dependencies": {
+    "core-js": "3.21.1",
+    "cors": "2.8.5",
+    "express": "4.17.3"
+  }
+}
